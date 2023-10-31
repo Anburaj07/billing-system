@@ -1,34 +1,38 @@
 {
-    "bills": [
-      {
-        "id": 1,
-        "name": "Book",
-        "price": 20,
-        "sold":12
-      },
-      {
-        "id": 2,
-        "name": "Pen",
-        "price": 15,
-        "sold":12
-      },
-      {
-        "id": 3,
-        "name": "Eraser",
-        "price": 5,
-        "sold":12
-      },
-      {
-        "id": 4,
-        "name": "Compass",
-        "age": 10,
-        "sold":12
-      },
-      {
-        "id": 5,
-        "name": "Scale",
-        "age": 30,
-        "sold":12
-      }
-    ]
-  }
+  "bills": [
+    {
+      "name": "Book",
+      "price": "25",
+      "sold": "100",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Pen",
+      "price": 15,
+      "sold": 12
+    },
+    {
+      "id": 3,
+      "name": "Eraser",
+      "price": 5,
+      "sold": 12
+    },
+    {
+      "id": 5,
+      "name": "Scale",
+      "age": 30,
+      "sold": 12
+    },
+    {
+      "name": "Laptop",
+      "price": "200000",
+      "id": 6
+    },
+    {
+      "name": "Headset",
+      "price": "2000",
+      "id": 7
+    }
+  ]
+}

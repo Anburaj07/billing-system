@@ -21,7 +21,10 @@ const AddBill = () => {
       name,
       price,
     };
-    console.log("login", obj);
+    axios.post(`http://localhost:8080/bills`,obj)
+    .then((res)=>res.data)
+    .catch((err)=>console.log(err))
+    navigate('/')
   };
   return (
     <DIV>
@@ -71,6 +74,7 @@ const DIV = styled.div`
     border-radius: 15px;
     margin-top: 15px;
   }
+  height: 750px;
 `;
 
 export default AddBill;
